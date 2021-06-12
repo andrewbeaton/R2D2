@@ -1,4 +1,4 @@
-# Using REON HoloProjectors with Padawan 360
+# REON HoloProjectors with Padawan 360 Overview
 
 If you have updated the firmware on the REON HP's to use CuriousMarcs firmware, you'll find that the I2C commands for the lights no longer match.
 

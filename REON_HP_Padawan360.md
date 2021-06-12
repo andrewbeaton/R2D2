@@ -35,41 +35,5 @@ Below are the details of the holo projectors along with their old and new comman
   
 * Note these legacy effects are programmed with simple delays. The holos, servo and I2C will be unresponsive until the effect is over.
 
-## Test Sketch
-
-```
-#include <Wire.h>
-
-void setup() { 
-  // Start I2C Bus.
-  Wire.begin(); 
-}
-
-void loop() { 
-// 1 = off
-// 2 = on white (all LEDs on)
-// 3 = on mulitcolor (LEDs change color randomly, always on)
-// 4 = legacy mode (default, LEDs change color randomly, and sometimes turn off)
-// 5 = White
-// 6 = Red
-// 7 = Green
-// 8 = Blue
-// 9 = Cyan
-// 10 = Yellow
-// 11 = Magenta
-// Legacy, the following will cause the holos, servo and I2C 
-// to be unresponsive until the effect is over.
-// 12 = HoloMessage (flickers for 31 seconds)
-// 13 = Disco 
-// 14 = System Failure
-  
-   triggerI2C(25, 3);  
-   delay(5000); 
-}
-
-void triggerI2C(byte deviceID, byte eventID) { 
-  Wire.beginTransmission(deviceID);
-  Wire.write(eventID);
-  Wire.endTransmission();
-}
-```
+## Holo Projector Test Sketch
+A simple Arduino sketch for testing the various light commands for the Holo Projectors can be found here [test_REON_HP_commands.ino](test_REON_HP_commands.ino).

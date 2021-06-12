@@ -1,10 +1,9 @@
 # REON HoloProjectors with Padawan 360 Overview
 
-If you have updated the firmware on the REON HP's to use CuriousMarcs firmware, you'll find that the I2C commands for the lights no longer match.
+If you have updated the firmware on the REON HP's to use CuriousMarcs firmware, you'll find that the I2C commands for the lights no longer match the original Padawan360 setup.
 
 Below are the details of the holo projectors along with their old and new command assignments.
   
-
 ## I2C Addresses
   
 | HP Position | I2C Address |

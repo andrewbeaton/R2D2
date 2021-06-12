@@ -1,2 +1,11 @@
 # R2D2
-Code and bits for fully remote R2D2 build
+Code, information and general notes for my fully remote controlled R2D2 3D printed build.
+
+## Padawan360 update to use latest REON Holo Projector Firmware
+* Information around the i2c commands for the REON Holo Projectors.
+* Updated Padawan360 body sketch.
+* A simple Holo Projector test sketch 
+* Overview of old vs new command differences between the original Padawan360 HP setup and the newer CuriousMarc HP setup.
+
+[REON_HP_Padawan360.md](REON HoloProjectors with Padawan 360 Overview)
+

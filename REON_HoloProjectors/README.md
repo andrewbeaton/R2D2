@@ -35,9 +35,9 @@ Below are the details of the holo projectors along with their old and new comman
 * Note these legacy effects are programmed with simple delays. The holos, servo and I2C will be unresponsive until the effect is over.
 
 ## Holo Projector Test Sketch
-A simple Arduino sketch for testing the various light commands for the Holo Projectors can be found here [test_REON_HP_commands.ino](test_REON_HP_commands.ino).
+A simple Arduino sketch for testing the various light commands for the Holo Projectors can be found here [REON_HoloProjectors.ino](REON_HoloProjectors.ino).
 
 ## Updated Padawan360 Body Sketch
-The updated Arduino sketch for the main body with updated Holo Projector I2C commands and light changes can be found here [padawan360_body_mega_i2c.ino](padawan360_body/padawan360_body_mega_i2c.ino).
+The updated Arduino sketch for the main body with updated Holo Projector I2C commands and light changes can be found here [padawan360_body.ino](../padawan360_body/padawan360_body.ino).
 
 Please refer to the original documentation on Padawan360 for updating and using the sketch. [Dan Kraus - Padawan360](https://github.com/dankraus/padawan360).

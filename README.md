@@ -7,5 +7,5 @@ Code, information and general notes for my fully remote controlled R2D2 3D print
 * A simple Holo Projector test sketch 
 * Overview of old vs new command differences between the original Padawan360 HP setup and the newer CuriousMarc HP setup.
 
-[REON HoloProjectors with Padawan 360 Overview](REON_HP_Padawan360.md)
+[REON HoloProjectors with Padawan 360 Overview](REON_HoloProjectors/README.md)
 

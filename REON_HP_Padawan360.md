@@ -38,6 +38,6 @@ Below are the details of the holo projectors along with their old and new comman
 A simple Arduino sketch for testing the various light commands for the Holo Projectors can be found here [test_REON_HP_commands.ino](test_REON_HP_commands.ino).
 
 ## Updated Padawan360 Body Sketch
-The updated Arduino sketch for the main body with updated Holo Projector I2C commands and light changes can be found here [padawan360_body_mega_i2c.in](padawan360_body/padawan360_body_mega_i2c.ino).
+The updated Arduino sketch for the main body with updated Holo Projector I2C commands and light changes can be found here [padawan360_body_mega_i2c.ino](padawan360_body/padawan360_body_mega_i2c.ino).
 
 Please refer to the original documentation on Padawan360 for updating and using the sketch. [Dan Kraus - Padawan360](https://github.com/dankraus/padawan360).
